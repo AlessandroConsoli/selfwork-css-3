@@ -105,6 +105,9 @@ footer{
 .toTop{
   width: 50px;
   cursor:pointer;
+  position: fixed;
+  top: 90vh;
+  right: 10px;
 }
 
 
@@ -115,7 +118,7 @@ footer{
 .toTop:hover{
   animation-name: arrow;
   animation-duration: 0.5s;
-  animation-iteration-count: 2;
+  animation-iteration-count: infinite;
 }
 
 @keyframes arrow{
